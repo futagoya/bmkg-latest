@@ -8,9 +8,8 @@ BeautifulSoup4 and Requests pacakge are used to produce JSON-form output which i
 
 # How to use?
 
-import gempaterkini
-
 ```
+import gempaterkini
 if __name__ == '__main__':
     print('Aplikasi utama')
     result = gempaterkini.ekstraksi_data()
