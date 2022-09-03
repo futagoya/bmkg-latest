@@ -6,3 +6,5 @@ This package is getting the latest data of Indonesia Earthquake by scrapping fro
 
 BeautifulSoup4 and Requests pacakge are used to produce JSON-form output which is ready to use in web or mobile apps
 
+# Author
+Firdaus Wahyu Nugroho
