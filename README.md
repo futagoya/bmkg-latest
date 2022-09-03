@@ -10,10 +10,12 @@ BeautifulSoup4 and Requests pacakge are used to produce JSON-form output which i
 
 import gempaterkini
 
+```
 if __name__ == '__main__':
     print('Aplikasi utama')
     result = gempaterkini.ekstraksi_data()
     gempaterkini.tampilkan_data(result)
+```
 
 # Author
 Firdaus Wahyu Nugroho
