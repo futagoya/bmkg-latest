@@ -4,16 +4,6 @@ from bs4 import BeautifulSoup
 
 def ekstraksi_data():
 
-    """
-    Tanggal: 28 Agustus 2022
-    Waktu: 15:09:56 WIB
-    Magnitudo: 4.3
-    Kedalaman: 33 km
-    Lokasi: 9.49 LS - 117.14 BT
-    Pusat gempa: berada dilaut 87 km Tenggara SumbawaBarat
-    Dirasakan: (Skala MMI) II-III Sumbawa Barat
-    :return:
-"""
     try:
         content = requests.get('https://bmkg.go.id')
     except Exception:
